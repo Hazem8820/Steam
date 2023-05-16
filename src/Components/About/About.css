@@ -1,0 +1,14 @@
+.divo:hover .spano {
+    background: #1b2838;
+    background: -webkit-linear-gradient(to right, #2a475e, #66c0f4);
+    background: linear-gradient(to right, #2a475e, #66c0f4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.divo:hover {
+    background-color: #1b2838;
+    transition: 0.1s;
+    cursor: pointer;
+}

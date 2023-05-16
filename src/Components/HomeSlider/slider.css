@@ -1,0 +1,106 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #222;
+}
+
+.wrapper {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: 50px 0;
+
+    display: flex;
+    flex-direction: row;
+
+    transition: all 200ms ease-in-out;
+}
+
+.image-wrapper {
+    width: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
+}
+
+.img {
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
+    transition: all 200ms ease-in-out;
+}
+
+.book-design-image {
+    object-position: center;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 380px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+
+}
+
+.h1 {
+    position: relative;
+    bottom: 0;
+    height: 300px;
+    color: #fff;
+    font-size: 50px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
+}
+
+.wrapper:hover img {
+    transform: scale(2);
+    /*object-position: bottom;*/
+}
+
+.wrapper:hover .h1 {
+    transform: scale(.4);
+}
+
+.wrapper:hover .image-wrapper {
+    width: 800px;
+}
+
+.a.hero-image-container {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.hero-image-container::after {
+    content: '';
+    background-image: url("../../images/view.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.hero-image-container:hover::after {
+    opacity: 1;
+}

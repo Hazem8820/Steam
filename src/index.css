@@ -1,0 +1,59 @@
+.steamhardcolor {
+    color: #171a21 !important;
+}
+
+.steambabycolor {
+    color: #66c0f4 !important;
+}
+
+.steamhard2color {
+    color: #1b2838 !important;
+}
+
+.steamnormalcolor {
+    color: #2a475e !important;
+}
+
+.steamlightcolor {
+    color: #c7d5e0 !important;
+}
+
+.steamhardbg {
+    background-color: #171a21 !important;
+}
+
+.steamnavbg {
+    background-color: #171a21ec !important;
+}
+
+.steamnavgif {
+    background-image: url(images/8815c1530ba8b997d50d365e5875d1d7.gif);
+    background-position: center center;
+    background-size: cover;
+}
+
+.steambabybg {
+    background-color: #66c0f4 !important;
+}
+
+.steamhard2bg {
+    background-color: #1b2838 !important;
+}
+
+.steamnormalbg {
+    background-color: #2a475e !important;
+}
+
+.steamlightbg {
+    background-color: #c7d5e0 !important;
+}
+
+.babyhover:hover {
+    color: #66c0f4 !important;
+}
+
+.line {
+    width: 100px;
+    height: 0.2px;
+}
+
